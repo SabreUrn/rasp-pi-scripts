@@ -9,5 +9,5 @@ GPIO.output(14, GPIO.LOW)
 GPIO.output(15, GPIO.HIGH)
 GPIO.output(18, GPIO.HIGH)
 
-input("Press enter to continue.")
+raw_input("Press enter to continue.")
 GPIO.cleanup()
